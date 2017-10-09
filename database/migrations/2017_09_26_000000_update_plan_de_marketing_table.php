@@ -17,7 +17,7 @@ class UpdatePlanDeMarketingTable extends Migration
 
             $table->string('coste_mensual_unidades');
 
-            $table->string('ventas_1');
+            $table->float('ventas_1',10,2);
             $table->string('ventas_2');
             $table->string('ventas_3');
             $table->string('ventas_4');

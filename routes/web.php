@@ -61,3 +61,9 @@ Route::get('/plan-de-operaciones/{id}', 'PlanDeOperacionesController@planDeOpera
 Route::get('/edit-plan-de-operaciones/{id}', 'PlanDeOperacionesController@editPlanDeOperaciones');
 Route::post('/save-plan-de-operaciones/{id}','PlanDeOperacionesController@savePlanDeOperaciones');
 Route::post('/update-plan-de-operaciones/{id}','PlanDeOperacionesController@updatePlanDeOperaciones');
+
+
+/**Rutas de plan de recursos humanos**/
+
+Route::get('/plan-de-recursos-humanos/{id}','PlanRecursosHumanosController@planRecursosHumanos');
+Route::get('/edit-plan-de-recursos-humanos/{id}','PlanRecursosHumanosController@editPlanRecursosHumanos');
